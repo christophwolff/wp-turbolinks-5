@@ -13,6 +13,6 @@ Features
 
 Known Issues
 --
-🐞The WP Admin bar ist not compatible yet. Turbolinks only get activated when you are not logged in.
+- 🐞The WP Adminbar ist not compatible yet. Turbolinks only gets activated when you are **not** logged in. So to speak, if you are a normal visitor.
 
 

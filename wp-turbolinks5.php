@@ -18,8 +18,8 @@ define('WPTURBOLINKS5_LIB_URL', WPTURBOLINKS5_URL . '/js/turbolinks.min.js'); //
  * Init the Turbolinks Script. Nothing more. It just works.
  */
 function turolinks_init() {
-	// TURBOLINKS 5 doenst like the Adminbar so we will have a peek if the user is logged in.
-	if(!is_admin() && !is_user_logged_in()) {
+	// TURBOLINKS 5 doenst like the Adminbar so we will have a peek if it exists
+	if(!is_admin() && !is_admin_bar_showing()) {
 		wp_register_script('turbolinks', WPTURBOLINKS5_LIB_URL);
 		wp_enqueue_script( 'turbolinks', WPTURBOLINKS5_LIB_URL , array(), WPTURBOLINKS5_VERSION, true );	
 	}

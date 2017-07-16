@@ -3,11 +3,11 @@
 Plugin Name: WP Turbolinks 5
 Plugin URI: http://christophwolff.de
 Description: Make your WordPress Website fast with Turbolinks 5!
-Version: 0.2
+Version: 0.3
 Author: Christoph Wolff
 */
 
-define('WPTURBOLINKS5_VERSION'    , '0.2');
+define('WPTURBOLINKS5_VERSION'    , '0.3');
 define('WPTURBOLINKS5_PLUGIN_NAME', 'WP Turbolinks 5');
 define('WPTURBOLINKS5_FILE'       , __FILE__);
 define('WPTURBOLINKS5_PATH'       , realpath(plugin_dir_path(WPTURBOLINKS5_FILE)) . '/');
